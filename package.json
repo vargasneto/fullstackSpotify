@@ -1,0 +1,19 @@
+{
+  "name": "fullspotify",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm install --prefix back-end && pnpm install --prefix front-end && npm run build --prefix front-end",
+    "start": "npm run start --prefix back-end"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vargasneto/fullstackSpotify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vargasneto/fullstackSpotify/issues"
+  }
+}
